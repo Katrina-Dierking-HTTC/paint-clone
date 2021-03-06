@@ -115,15 +115,14 @@ body {
 }
 
 .slider:hover {
-  opacity: 1;
+  opacity: 1
 }
-
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   width: 10px;
   height: 10px;
-  background: rgb(47, 47, 47);
+  background: #e21979;
 }
 
 .slider::-moz-range-thumb {
@@ -146,7 +145,7 @@ body {
 
 /* Canvas */
 canvas#canvas {
-  background-color: rgb(177, 177, 177);
+  background-color: red;
   position: absolute;
   top: 50px;
   cursor: crosshair;
